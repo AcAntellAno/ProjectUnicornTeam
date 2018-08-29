@@ -4,7 +4,6 @@ import Card from './Card';
 const CardList = ({ members }) => {
   return (
     <div>
-      <h1>Meet the Unicorn Team</h1>
       {members.map((mem, i) => {
         return (
           <Card
