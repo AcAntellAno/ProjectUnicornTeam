@@ -10,5 +10,12 @@ class Hello extends Component {
     );
   }
 }
+class Test extends Component {
+  render(){
+    return (
+      <div><hq>Test</hq></div>
+    )
+  }
+}
 
 export default Hello;
