@@ -34,20 +34,6 @@ export const members = [{
         link: 'https://github.com/epichi123'
     },
     {
-        id: 6,
-        username: 'fangweb',
-        teamname: 'grocerhub',
-        image: 'https://avatars2.githubusercontent.com/u/28660913?s=420&v=4',
-        link: 'https://github.com/fangweb'
-    },
-    {
-        id: 7,
-        username: 'garrison1234',
-        teamname: 'lit',
-        image: 'https://avatars2.githubusercontent.com/u/35623693?s=420&v=4',
-        link: 'https://github.com/garrison1234'
-    },
-    {
         id: 8,
         username: 'JonathanFillion',
         teamname: 'lit',
@@ -83,13 +69,6 @@ export const members = [{
         link: 'https://github.com/rickywid'
     },
     {
-        id: 13,
-        username: 'rmjordas',
-        teamname: 'grocerhub',
-        image: 'https://avatars2.githubusercontent.com/u/27814962?s=420&v=4',
-        link: 'https://github.com/rmjordas'
-    },
-    {
         id: 14,
         username: 'roymoran',
         teamname: 'mentorship',
@@ -109,5 +88,26 @@ export const members = [{
         teamname: 'lit',
         image: 'https://avatars2.githubusercontent.com/u/28246170?s=420&v=4',
         link: 'https://github.com/theboynextdoor'
+    },
+    {
+        id: 7,
+        username: 'garrison1234',
+        teamname: 'lit',
+        image: 'https://avatars2.githubusercontent.com/u/35623693?s=420&v=4',
+        link: 'https://github.com/garrison1234'
+    },
+    {
+        id: 13,
+        username: 'rmjordas',
+        teamname: 'grocerhub',
+        image: 'https://avatars2.githubusercontent.com/u/27814962?s=420&v=4',
+        link: 'https://github.com/rmjordas'
+    },
+    {
+        id: 6,
+        username: 'fangweb',
+        teamname: 'grocerhub',
+        image: 'https://avatars2.githubusercontent.com/u/28660913?s=420&v=4',
+        link: 'https://github.com/fangweb'
     }
 ]
