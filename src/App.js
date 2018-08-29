@@ -14,20 +14,20 @@ class App extends Component {
   }
   onSearchInput = event => {
     this.setState({ searchfield: event.target.value });
+  };
+
+  render() {
     const filterMembers = this.state.members.filter(member => {
       return member.username
         .toLowerCase()
         .includes(this.state.searchfield.toLowerCase());
     });
-    console.log(filterMembers);
-  };
-
-  render() {
+    //console.log(filterMembers);
     return (
       <div className="tc">
         <h1>Meet the Unicorn Team</h1>
         <SearchBox searchChange={this.onSearchInput} />
-        <CardList members={this.state.members} />
+        <CardList members={filterMembers} />
       </div>
     );
   }
