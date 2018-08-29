@@ -1,21 +1,14 @@
 import React, { Component } from 'react';
+import './Hello.css';
 
 class Hello extends Component {
   render() {
     return (
-      <div>
+      <div className="f1 tc">
         <h1> Hello, World </h1>
-        <p>My first component</p>
+        <p>{this.props.greeting}</p>
       </div>
     );
   }
 }
-class Test extends Component {
-  render(){
-    return (
-      <div><hq>Test</hq></div>
-    )
-  }
-}
-
 export default Hello;
