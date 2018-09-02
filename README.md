@@ -5,6 +5,6 @@
  * My first time using react :grimacing: :alien:
 
 # To Run Application
- * `git clone <repo_name>` 
+ * `git clone <this_repo_name>` 
  * `npm install` 
  * `npm start` 
